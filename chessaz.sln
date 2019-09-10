@@ -3,7 +3,16 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.779
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "chessaz", "chessaz\chessaz.csproj", "{6C9CAF22-DE44-4E63-AEC9-E6B73E6DEDFF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "chessaz", "chessaz\chessaz.csproj", "{6C9CAF22-DE44-4E63-AEC9-E6B73E6DEDFF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Build", "Build", "{15B61556-2A09-41BB-9044-7BB7FE34B93B}"
+	ProjectSection(SolutionItems) = preProject
+		build.ps1 = build.ps1
+		functions.ps1 = functions.ps1
+		tasks.ps1 = tasks.ps1
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "chessaz.Test", "chessaz.Test\chessaz.Test.csproj", "{8C8B6868-787A-457D-B81F-BE28E18A4168}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +24,10 @@ Global
 		{6C9CAF22-DE44-4E63-AEC9-E6B73E6DEDFF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6C9CAF22-DE44-4E63-AEC9-E6B73E6DEDFF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6C9CAF22-DE44-4E63-AEC9-E6B73E6DEDFF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8C8B6868-787A-457D-B81F-BE28E18A4168}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8C8B6868-787A-457D-B81F-BE28E18A4168}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8C8B6868-787A-457D-B81F-BE28E18A4168}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8C8B6868-787A-457D-B81F-BE28E18A4168}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
